@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
 .facePic img{
 
 	width:200px;
@@ -8,16 +9,90 @@
 
 	position: fixed;
 }
+.wrapper{
+
+	display: flex;
+}
 .header {
   width: 250px;              
   height: 100vh;             
   position: fixed;          
   top: 0;
   left: 0;
-  background: #222;          
+  background: #6b0505; 
+  background: rgba(107, 5, 5, 0.6);          
+
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
 }
+.navigation {
+  padding-right: 80px; 
+  padding-top: 25px;
+}
+.navigation li{
+	margin: 15px 0;
+   text-align: center;
+    padding-top: 20px;
+}
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  padding-top: 200px;
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  background: #333;
+  font-size: 18px;
+  display: block;
+  border-radius: 15px;
+  padding: 10px;
+}
+.navigation a:hover{
+	background: #555;
+}
+.content {
+	margin-left: 250px; 
+	padding-left: 20px;
+	font-family: "Playfair", sans-serif;
+	
+}
+.bio{
+
+	display: flex;
+	background-color: rgba(243, 201, 11,0.9);  
+	color: black;
+	border-radius: 10px;
+	justify-content: center;
+	margin-right: 600px;
+	padding-left: 20px
+}
+body{
+	
+	 top: 0;
+	 margin:0;
+  	left: 0;
+	background-color: rgba(194, 8, 8, 0.2);  
+    min-height: 100vh;
+	 
+}
+html {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.mePic img{
+
+	max-width: 90%;
+	max-height: 90%;
+    border-radius: 10px;
+	margin-top:20px ;
+	margin-left:60px ;
+
+} 
